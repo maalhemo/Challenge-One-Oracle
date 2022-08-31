@@ -1,0 +1,144 @@
+
+
+body{
+    /*background: #E5E5E5;*/
+   /* background-image: url(Fondo-web.jpg);*/
+   background-image: url(backg.jpg);
+}
+
+h1{
+    position: absolute;
+    width: 500px;
+height: 48px;
+left: 50px;
+text-align: center;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 32px;
+line-height: 150%;
+color: #0A3871;
+}
+
+.texto{
+    position: absolute;
+width: 400px;
+height: 290px;
+left: 150px;
+top: 100px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+text-align: center;
+line-height: 150%;
+color: #0A3871;
+background: #D8DFE8;
+
+}
+#mensa{
+    position: absolute;
+    top: 400px;   
+    left: 150px;
+}
+.button1{
+
+    position: absolute;
+    width: 200px;
+    height: 48px;
+    left: 255px;
+    top: 420px;
+box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+background: #0A3871;
+border-radius: 24px;
+border: 2px solid #D8DFE8;
+
+
+}
+.button2{
+
+    position: absolute;
+    width: 200px;
+    height: 48px;
+    left: 255px;
+    top: 480px;
+    box-sizing: border-box;
+background: #D8DFE8;
+border: 1px solid #0A3871;
+border-radius: 24px;
+
+}
+.divtexto{
+    position: absolute;
+width: 400px;
+height: 550px;
+left: 700px;
+top: 100px;
+box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+border-radius: 32px;
+}
+.mensajeencontrado{
+    position: absolute;
+    width: 400px;
+    height: 290px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 120%;
+    text-align: center;  
+    color: #0A3871;
+background: #D8DFE8;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.divmensaje{
+    position: absolute;
+width: 350px;
+height: 5000px;
+left: 1000px;
+top: 40px;
+background: #D8DFE8;
+box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+border-radius: 32px;
+}
+.button3{
+    position: absolute;
+    width: 200px;
+    height: 48px;
+    left: 110px;
+    top: 320px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+    border: 1px solid #0A3871;
+}
+.button4{
+    position: absolute;
+    width: 200px;
+    height: 48px;
+    left: 110px;
+    top: 380px; 
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+    border: 1px solid #0A3871;
+}
+textarea {  
+    height: auto;
+    border-radius: 32px;
+    border: 2px solid #0A3871;
+}
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #0A3871;
+    color: white;
+    text-align: center;
+  }

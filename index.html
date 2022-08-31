@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Encriptador-Desencriptador</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  </head>
+  <body>
+    <h1>Encriptador - Desencriptador</h1>
+    <div>
+      <textarea
+        class="texto"
+        id="txtcifrado"
+        rows="10"
+        cols="50"
+        placeholder="Escribe o pega texto"
+      >
+      </textarea>
+    </div>
+    <p id="mensa">*Solo letras minusculas y sin acentos</p>
+    <button class="button1" id="btnEncriptar">Encriptar</button>
+    <button class="button2" id="btnDesencriptar">Desencriptar</button>
+
+    <div class="divtexto">
+      <textarea
+        class="mensajeencontrado"
+        id="txtresultado"
+        type="submit"
+        rows="10"
+        cols="50"
+        placeholder="Resultado"
+      ></textarea>
+
+      <button class="button3" id="btnCopiar" type="submit">Copiar</button>
+      <button class="button4" id="btnlimpiar" type="submit">Limpiar</button>
+    </div>
+
+    <div id="footer" class="footer">
+      <footer>Mario Alberto Hernandez Morales</footer>
+    </div>
+
+    <script src="script.js" type="text/javascript"></script>
+  </body>
+</html>
